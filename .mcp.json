@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "odds-api": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "odds-api-mcp-server"
+      ],
+      "env": {
+        "ODDS_API_KEY": "your-api-key"
+      }
+    }
+  }
+}
