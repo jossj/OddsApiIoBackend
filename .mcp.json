@@ -7,7 +7,7 @@
         "odds-api-mcp-server"
       ],
       "env": {
-        "ODDS_API_KEY": "your-api-key"
+        "ODDS_API_KEY": "31a08940ce4cfb5d629b909b2cde784648467a5c4d6bbf869f4e490be60d23d5"
       }
     }
   }
