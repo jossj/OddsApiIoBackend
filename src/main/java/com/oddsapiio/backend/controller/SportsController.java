@@ -1,31 +1,26 @@
 package com.oddsapiio.backend.controller;
 
-import com.oddsapiio.backend.model.Sport;
-import com.oddsapiio.backend.service.OddsService;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import com.oddsapiio.backend.client.OddsApiClient;
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
-
+/**
+ * GET /v1/sports  — list all 34 supported sports (no auth required).
+ */
 @RestController
 @RequestMapping("/v1/sports")
 public class SportsController {
 
-    private final OddsService oddsService;
+    private final OddsApiClient client;
 
-    public SportsController(OddsService oddsService) {
-        this.oddsService = oddsService;
+    public SportsController(OddsApiClient client) {
+        this.client = client;
     }
 
-    @GetMapping
-    public List<Sport> getAllSports() {
-        return oddsService.getAllSports();
-    }
-
-    @GetMapping("/{sportKey}")
-    public ResponseEntity<Sport> getSport(@PathVariable String sportKey) {
-        return oddsService.getSportByKey(sportKey)
-                .map(ResponseEntity::ok)
-                .orElse(ResponseEntity.notFound().build());
+    @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
+    public String getSports() {
+        return client.getPublic("/sports");
     }
 }
