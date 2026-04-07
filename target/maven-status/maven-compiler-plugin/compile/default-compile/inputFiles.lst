@@ -1,0 +1,16 @@
+/home/user/OddsApiIoBackend/src/main/java/com/oddsapiio/backend/OddsApiIoBackendApplication.java
+/home/user/OddsApiIoBackend/src/main/java/com/oddsapiio/backend/client/OddsApiClient.java
+/home/user/OddsApiIoBackend/src/main/java/com/oddsapiio/backend/config/OddsApiProperties.java
+/home/user/OddsApiIoBackend/src/main/java/com/oddsapiio/backend/config/WebConfig.java
+/home/user/OddsApiIoBackend/src/main/java/com/oddsapiio/backend/controller/BetsController.java
+/home/user/OddsApiIoBackend/src/main/java/com/oddsapiio/backend/controller/BookmakersController.java
+/home/user/OddsApiIoBackend/src/main/java/com/oddsapiio/backend/controller/EventsController.java
+/home/user/OddsApiIoBackend/src/main/java/com/oddsapiio/backend/controller/OddsController.java
+/home/user/OddsApiIoBackend/src/main/java/com/oddsapiio/backend/controller/ParticipantsController.java
+/home/user/OddsApiIoBackend/src/main/java/com/oddsapiio/backend/controller/SportsController.java
+/home/user/OddsApiIoBackend/src/main/java/com/oddsapiio/backend/service/BetsService.java
+/home/user/OddsApiIoBackend/src/main/java/com/oddsapiio/backend/service/BookmakersService.java
+/home/user/OddsApiIoBackend/src/main/java/com/oddsapiio/backend/service/EventsService.java
+/home/user/OddsApiIoBackend/src/main/java/com/oddsapiio/backend/service/OddsService.java
+/home/user/OddsApiIoBackend/src/main/java/com/oddsapiio/backend/service/ParticipantsService.java
+/home/user/OddsApiIoBackend/src/main/java/com/oddsapiio/backend/service/SportsService.java

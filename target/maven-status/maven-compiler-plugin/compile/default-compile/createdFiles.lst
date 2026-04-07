@@ -1,0 +1,17 @@
+com/oddsapiio/backend/OddsApiIoBackendApplication.class
+com/oddsapiio/backend/config/WebConfig$1.class
+com/oddsapiio/backend/service/EventsService.class
+com/oddsapiio/backend/service/OddsService.class
+com/oddsapiio/backend/controller/EventsController.class
+com/oddsapiio/backend/service/BetsService.class
+com/oddsapiio/backend/service/SportsService.class
+com/oddsapiio/backend/service/BookmakersService.class
+com/oddsapiio/backend/controller/SportsController.class
+com/oddsapiio/backend/controller/ParticipantsController.class
+com/oddsapiio/backend/controller/OddsController.class
+com/oddsapiio/backend/config/OddsApiProperties.class
+com/oddsapiio/backend/service/ParticipantsService.class
+com/oddsapiio/backend/client/OddsApiClient.class
+com/oddsapiio/backend/controller/BookmakersController.class
+com/oddsapiio/backend/config/WebConfig.class
+com/oddsapiio/backend/controller/BetsController.class
