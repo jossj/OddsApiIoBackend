@@ -1,10 +1,8 @@
 services:
   - type: web
     name: oddsapiio-backend
-    runtime: java
+    runtime: docker
     plan: free
-    buildCommand: mvn package -DskipTests
-    startCommand: java -jar target/backend-0.0.1-SNAPSHOT.jar
     envVars:
       - key: ODDS_API_KEY
         sync: false
