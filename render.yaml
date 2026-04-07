@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: oddsapiio-backend
-    runtime: docker
-    plan: free
-    envVars:
-      - key: ODDS_API_KEY
-        sync: false
